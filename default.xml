@@ -12,9 +12,9 @@
   <project path="aosp" name="kernel_common-5.10" groups="partner" remote="grapheneos" />
   <project path="private/gs-google" name="kernel_gs" groups="partner" remote="grapheneos" >
     <linkfile dest="build.config" src="build.config.slider"/>
-    <linkfile dest="build_slider.sh" src="build_slider.sh"/>
+    <linkfile dest="build_raviole.sh" src="build_slider.sh"/>
     <linkfile dest="build_mixed.sh" src="build_mixed.sh"/>
-    <linkfile dest="build_cloudripper.sh" src="build_cloudripper.sh"/>
+    <linkfile dest="build_pantah.sh" src="build_cloudripper.sh"/>
     <linkfile dest="download_hlos_boot_images_and_repack_kernel_boot_images.sh" src="download_hlos_boot_images_and_repack_kernel_boot_images.sh"/>
     <linkfile dest="repack_kernel_boot_images.sh" src="repack_kernel_boot_images.sh"/>
     <linkfile dest="update_symbol_list.sh" src="update_symbol_list.sh"/>
